@@ -39,16 +39,22 @@ export default function SobrePage() {
               <div>
                 <h1 className="text-4xl font-bold text-foreground mb-6">Sobre a Vilara Jeans</h1>
                 <p className="text-muted-foreground text-lg mb-4">
-                  Nascemos da paixão por criar jeans que combinam conforto, qualidade e estilo. Desde 2018, vestimos
-                  milhares de brasileiros com peças que fazem a diferença no dia a dia.
+                  Nascemos em Jaraguá, Goiás - a Capital Nacional do Jeans - com a paixão por criar peças que combinam
+                  conforto, qualidade e estilo. Desde 2018, vestimos milhares de brasileiros com jeans que fazem a
+                  diferença no dia a dia.
                 </p>
                 <p className="text-muted-foreground">
-                  Nossa missão é democratizar o acesso a jeans de qualidade premium, com preços justos e atendimento
-                  excepcional.
+                  Nossa missão é levar a tradição e excelência da confecção goiana para todo o Brasil, com preços justos
+                  e atendimento excepcional. Estamos no coração do maior polo de jeans do país.
                 </p>
               </div>
               <div className="relative aspect-square rounded-2xl overflow-hidden">
-                <Image src="/jeans-factory-workshop.jpg" alt="Ateliê Vilara Jeans" fill className="object-cover" />
+                <Image
+                  src="/jeans-factory-workshop.jpg"
+                  alt="Ateliê Vilara Jeans em Jaraguá-GO"
+                  fill
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>
